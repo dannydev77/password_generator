@@ -32,10 +32,9 @@ Built with Python Flask backend and a Bootstrap-powered frontend.
 
 ```cd <password_generator```
 
-2. **Install Python dependencies**
+2.**Install Python dependencies**
 
 ```pip install -r requirements.txt```
-
 
 Run the app
 
@@ -48,7 +47,6 @@ Open your browser at http://localhost:5000
 Build and run with Docker Compose:
 
 ```docker-compose up --build```
-
 
 App will be available at http://localhost:5000.
 
@@ -64,4 +62,3 @@ Copy password with the Copy button
 
 License
 
-MIT License
