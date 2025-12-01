@@ -1,0 +1,12 @@
+
+
+services:
+  password-generator:
+    build:
+      context: .
+      # Enable BuildKit for faster, better caching
+      dockerfile: Dockerfile
+      args: {}
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
