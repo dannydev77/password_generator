@@ -4,7 +4,6 @@ services:
   password-generator:
     build:
       context: .
-      # Enable BuildKit for faster, better caching
       dockerfile: Dockerfile
       args: {}
     ports:
