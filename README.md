@@ -1,3 +1,5 @@
+# Updated README
+
 # OpenSSL Password Generator
 
 A simple web app for generating random passwords using OpenSSL's cryptographically secure random number generator.  
